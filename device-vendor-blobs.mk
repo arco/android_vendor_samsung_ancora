@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
 
 # Binaries
 PRODUCT_COPY_FILES += \
-    vendor/samsung/ancora/proprietary/bin/BCM4329B1_002.002.023.0944.0952.hcd:/system/bin/BCM4329B1_002.002.023.0944.0952.hcd \
     vendor/samsung/ancora/proprietary/bin/rmt_storage:/system/bin/rmt_storage
 
 # Cameradata
@@ -31,24 +30,29 @@ PRODUCT_COPY_FILES += \
 
 # Libs
 PRODUCT_COPY_FILES += \
+    vendor/samsung/ancora/proprietary/lib/egl/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
     vendor/samsung/ancora/proprietary/lib/egl/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
     vendor/samsung/ancora/proprietary/lib/egl/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/samsung/ancora/proprietary/lib/egl/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
     vendor/samsung/ancora/proprietary/lib/egl/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
     vendor/samsung/ancora/proprietary/lib/libC2D2.so:/system/lib/libC2D2.so \
     vendor/samsung/ancora/proprietary/lib/libOpenVG.so:/system/lib/libOpenVG.so \
-    vendor/samsung/ancora/proprietary/lib/libaudioalsa.so:/system/lib/libaudioalsa.so \
+    vendor/samsung/ancora/proprietary/lib/libakm.so:/system/lib/libakm.so \
     vendor/samsung/ancora/proprietary/lib/libgsl.so:/system/lib/libgsl.so \
+    vendor/samsung/ancora/proprietary/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
+    vendor/samsung/ancora/proprietary/lib/libaudioalsa.so:/system/lib/libaudioalsa.so \
+    vendor/samsung/ancora/proprietary/lib/libaudioeq.so:/system/lib/libaudioeq.so \
     vendor/samsung/ancora/proprietary/lib/libcamera.so:/system/lib/libcamera.so \
     vendor/samsung/ancora/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/samsung/ancora/proprietary/lib/libgemini.so:/system/lib/libgemini.so \
     vendor/samsung/ancora/proprietary/lib/libmmipl.so:/system/lib/libmmipl.so \
     vendor/samsung/ancora/proprietary/lib/libmmjpeg.so:/system/lib/libmmjpeg.so \
-    vendor/samsung/ancora/proprietary/lib/hw/lights.msm7k.so:/system/lib/hw/lights.msm7k.so \
-    vendor/samsung/ancora/proprietary/lib/hw/sensors.GT-I8150.so:/system/lib/hw/sensors.GT-I8150.so
+    vendor/samsung/ancora/proprietary/lib/hw/lights.msm7k.so:/system/lib/hw/lights.msm7x30.so \
+    vendor/samsung/ancora/proprietary/lib/hw/sensors.GT-I8150.so:/system/lib/hw/sensors.msm7x30.so
 
 # Firmware
 PRODUCT_COPY_FILES += \
+    vendor/samsung/ancora/proprietary/bin/BCM4329B1_002.002.023.0944.0952.hcd:/system/etc/firmware/bcm4329.hcd \
     vendor/samsung/ancora/proprietary/etc/firmware/vidc_720p_command_control.fw:system/etc/firmware/vidc_720p_command_control.fw \
     vendor/samsung/ancora/proprietary/etc/firmware/vidc_720p_h263_dec_mc.fw:system/etc/firmware/vidc_720p_h263_dec_mc.fw \
     vendor/samsung/ancora/proprietary/etc/firmware/vidc_720p_h264_dec_mc.fw:system/etc/firmware/vidc_720p_h264_dec_mc.fw \
