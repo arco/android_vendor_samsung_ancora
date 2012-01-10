@@ -17,7 +17,7 @@
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
     vendor/samsung/ancora/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
-    vendor/samsung/ancora/proprietary/lib/libcamera.so:obj/lib/libcamera.so
+    vendor/samsung/ancora/proprietary/lib/libsecril-client.so:obj/lib/libsecril-client.so
 
 # Binaries
 PRODUCT_COPY_FILES += \
@@ -47,8 +47,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ancora/proprietary/lib/libgemini.so:/system/lib/libgemini.so \
     vendor/samsung/ancora/proprietary/lib/libmmipl.so:/system/lib/libmmipl.so \
     vendor/samsung/ancora/proprietary/lib/libmmjpeg.so:/system/lib/libmmjpeg.so \
-    vendor/samsung/ancora/proprietary/lib/hw/lights.msm7k.so:/system/lib/hw/lights.msm7x30.so \
-    vendor/samsung/ancora/proprietary/lib/hw/sensors.GT-I8150.so:/system/lib/hw/sensors.msm7x30.so
+    vendor/samsung/ancora/proprietary/lib/hw/lights.msm7k.so:/system/lib/hw/lights.ancora.so \
+    vendor/samsung/ancora/proprietary/lib/hw/sensors.GT-I8150.so:/system/lib/hw/sensors.ancora.so
 
 # Firmware
 PRODUCT_COPY_FILES += \
@@ -67,3 +67,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/ancora/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/ancora/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so
+
+#PRODUCT_COPY_FILES += \
+#    vendor/samsung/ancora/proprietary/bin/netmgrd:/system/bin/netmgrd \
+#    vendor/samsung/ancora/proprietary/bin/qmuxd:/system/bin/qmuxd \
+#    vendor/samsung/ancora/proprietary/lib/libdiag.so:/system/lib/libdiag.so \
+#    vendor/samsung/ancora/proprietary/lib/libdsutils.so:/system/lib/libdsutils.so \
+#    vendor/samsung/ancora/proprietary/lib/libidl.so:/system/lib/libidl.so \
+#    vendor/samsung/ancora/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
+#    vendor/samsung/ancora/proprietary/lib/libqmi.so:/system/lib/libqmi.so \
+#    vendor/samsung/ancora/proprietary/lib/libqmiservices.so:/system/lib/libqmiservices.so
