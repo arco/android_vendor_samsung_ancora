@@ -41,7 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ancora/proprietary/lib/libgsl.so:/system/lib/libgsl.so \
     vendor/samsung/ancora/proprietary/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
     vendor/samsung/ancora/proprietary/lib/libaudioalsa.so:/system/lib/libaudioalsa.so \
-    vendor/samsung/ancora/proprietary/lib/libaudioeq.so:/system/lib/libaudioeq.so \
     vendor/samsung/ancora/proprietary/lib/libcamera.so:/system/lib/libcamera.so \
     vendor/samsung/ancora/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/samsung/ancora/proprietary/lib/libgemini.so:/system/lib/libgemini.so \
