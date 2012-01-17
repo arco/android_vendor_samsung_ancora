@@ -21,7 +21,8 @@ PRODUCT_COPY_FILES += \
 
 # Binaries
 PRODUCT_COPY_FILES += \
-    vendor/samsung/ancora/proprietary/bin/rmt_storage:/system/bin/rmt_storage
+    vendor/samsung/ancora/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
+    vendor/samsung/ancora/proprietary/bin/qmuxd:/system/bin/qmuxd
 
 # Cameradata
 PRODUCT_COPY_FILES += \
@@ -38,6 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ancora/proprietary/lib/libC2D2.so:/system/lib/libC2D2.so \
     vendor/samsung/ancora/proprietary/lib/libOpenVG.so:/system/lib/libOpenVG.so \
     vendor/samsung/ancora/proprietary/lib/libakm.so:/system/lib/libakm.so \
+    vendor/samsung/ancora/proprietary/lib/libdiag.so:/system/lib/libdiag.so \
     vendor/samsung/ancora/proprietary/lib/libgsl.so:/system/lib/libgsl.so \
     vendor/samsung/ancora/proprietary/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
     vendor/samsung/ancora/proprietary/lib/libaudioalsa.so:/system/lib/libaudioalsa.so \
@@ -66,13 +68,3 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/ancora/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/ancora/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so
-
-#PRODUCT_COPY_FILES += \
-#    vendor/samsung/ancora/proprietary/bin/netmgrd:/system/bin/netmgrd \
-#    vendor/samsung/ancora/proprietary/bin/qmuxd:/system/bin/qmuxd \
-#    vendor/samsung/ancora/proprietary/lib/libdiag.so:/system/lib/libdiag.so \
-#    vendor/samsung/ancora/proprietary/lib/libdsutils.so:/system/lib/libdsutils.so \
-#    vendor/samsung/ancora/proprietary/lib/libidl.so:/system/lib/libidl.so \
-#    vendor/samsung/ancora/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
-#    vendor/samsung/ancora/proprietary/lib/libqmi.so:/system/lib/libqmi.so \
-#    vendor/samsung/ancora/proprietary/lib/libqmiservices.so:/system/lib/libqmiservices.so
