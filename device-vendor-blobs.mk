@@ -21,8 +21,7 @@ PRODUCT_COPY_FILES += \
 
 # Binaries
 PRODUCT_COPY_FILES += \
-    vendor/samsung/ancora/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
-    vendor/samsung/ancora/proprietary/bin/qmuxd:/system/bin/qmuxd
+    vendor/samsung/ancora/proprietary/bin/rmt_storage:/system/bin/rmt_storage
 
 # Cameradata
 PRODUCT_COPY_FILES += \
