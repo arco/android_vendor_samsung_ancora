@@ -38,7 +38,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ancora/proprietary/lib/libC2D2.so:/system/lib/libC2D2.so \
     vendor/samsung/ancora/proprietary/lib/libOpenVG.so:/system/lib/libOpenVG.so \
     vendor/samsung/ancora/proprietary/lib/libakm.so:/system/lib/libakm.so \
-    vendor/samsung/ancora/proprietary/lib/libdiag.so:/system/lib/libdiag.so \
     vendor/samsung/ancora/proprietary/lib/libgsl.so:/system/lib/libgsl.so \
     vendor/samsung/ancora/proprietary/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
     vendor/samsung/ancora/proprietary/lib/libaudioalsa.so:/system/lib/libaudioalsa.so \
