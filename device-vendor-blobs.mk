@@ -17,6 +17,7 @@
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
     vendor/samsung/ancora/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
+    vendor/samsung/ancora/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
     vendor/samsung/ancora/proprietary/lib/libsecril-client.so:obj/lib/libsecril-client.so
 
 # Binaries
@@ -41,11 +42,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ancora/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/samsung/ancora/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/samsung/ancora/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
+    vendor/samsung/ancora/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
     vendor/samsung/ancora/proprietary/lib/libcamera.so:system/lib/libcamera.so \
     vendor/samsung/ancora/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/samsung/ancora/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/samsung/ancora/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/samsung/ancora/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/samsung/ancora/proprietary/lib/libs3cjpeg.so:system/lib/libs3cjpeg.so \
     vendor/samsung/ancora/proprietary/lib/hw/lights.msm7k.so:system/lib/hw/lights.ancora.so \
     vendor/samsung/ancora/proprietary/lib/hw/sensors.GT-I8150.so:system/lib/hw/sensors.ancora.so
 
