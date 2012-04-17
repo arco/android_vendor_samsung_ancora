@@ -1,4 +1,4 @@
-# Copyright (C) 2011 The CyanogenMod Project
+# Copyright (C) 2012 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -46,11 +46,16 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ancora/proprietary/lib/libcamera.so:system/lib/libcamera.so \
     vendor/samsung/ancora/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/samsung/ancora/proprietary/lib/libgemini.so:system/lib/libgemini.so \
-    vendor/samsung/ancora/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
-    vendor/samsung/ancora/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/samsung/ancora/proprietary/lib/libs3cjpeg.so:system/lib/libs3cjpeg.so \
     vendor/samsung/ancora/proprietary/lib/hw/lights.msm7k.so:system/lib/hw/lights.ancora.so \
     vendor/samsung/ancora/proprietary/lib/hw/sensors.GT-I8150.so:system/lib/hw/sensors.ancora.so
+
+PRODUCT_COPY_FILES += \
+    vendor/samsung/ancora/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
+    vendor/samsung/ancora/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/samsung/ancora/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
+    vendor/samsung/ancora/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
+    vendor/samsung/ancora/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so
 
 # Firmware
 PRODUCT_COPY_FILES += \
