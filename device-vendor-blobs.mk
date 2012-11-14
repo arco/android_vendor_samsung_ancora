@@ -18,6 +18,7 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/ancora/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/samsung/ancora/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
+    vendor/samsung/ancora/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
     vendor/samsung/ancora/proprietary/lib/libseccameraadaptor.so:obj/lib/libseccameraadaptor.so \
     vendor/samsung/ancora/proprietary/lib/libsecril-client.so:obj/lib/libsecril-client.so
 
@@ -40,6 +41,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ancora/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/samsung/ancora/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/samsung/ancora/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
+    vendor/samsung/ancora/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/samsung/ancora/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/samsung/ancora/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so
 
@@ -70,6 +72,7 @@ PRODUCT_COPY_FILES += \
 
 # Media libs
 PRODUCT_COPY_FILES += \
+    vendor/samsung/ancora/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/samsung/ancora/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/samsung/ancora/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/samsung/ancora/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
