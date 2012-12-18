@@ -19,7 +19,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ancora/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/samsung/ancora/proprietary/lib/libril.so:obj/lib/libril.so \
     vendor/samsung/ancora/proprietary/lib/libseccameraadaptor.so:obj/lib/libseccameraadaptor.so \
-    vendor/samsung/ancora/proprietary/lib/libsecril-client.so:obj/lib/libsecril-client.so
+    vendor/samsung/ancora/proprietary/lib/libsecril-client.so:obj/lib/libsecril-client.so \
+    vendor/samsung/ancora/proprietary/lib/libv8.so:obj/lib/libv8.so
 
 # Binaries
 PRODUCT_COPY_FILES += \
@@ -42,6 +43,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ancora/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/samsung/ancora/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/samsung/ancora/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so
+
+# QCOM optimized libv8
+PRODUCT_COPY_FILES += \
+    vendor/samsung/ancora/proprietary/lib/libv8.so:system/lib/libv8.so
 
 # HW libs
 PRODUCT_COPY_FILES += \
@@ -69,10 +74,13 @@ PRODUCT_COPY_FILES += \
 
 # Media libs
 PRODUCT_COPY_FILES += \
+    vendor/samsung/ancora/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
+    vendor/samsung/ancora/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
+    vendor/samsung/ancora/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
+    vendor/samsung/ancora/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
     vendor/samsung/ancora/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/samsung/ancora/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-    vendor/samsung/ancora/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
-    vendor/samsung/ancora/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so
+    vendor/samsung/ancora/proprietary/lib/libmmparser.so:system/lib/libmmparser.so
 
 # Firmware
 PRODUCT_COPY_FILES += \
