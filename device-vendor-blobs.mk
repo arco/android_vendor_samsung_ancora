@@ -71,14 +71,15 @@ PRODUCT_COPY_FILES += \
 # Media libs
 PRODUCT_COPY_FILES += \
     vendor/samsung/ancora/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
+    vendor/samsung/ancora/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
+    vendor/samsung/ancora/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
     vendor/samsung/ancora/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/samsung/ancora/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-    vendor/samsung/ancora/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
-    vendor/samsung/ancora/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so
+    vendor/samsung/ancora/proprietary/lib/libmmparser.so:system/lib/libmmparser.so
 
 # Firmware
 PRODUCT_COPY_FILES += \
-    vendor/samsung/ancora/proprietary/bin/BCM4329B1_002.002.023.0944.0952.hcd:system/vendor/firmware/bcm4329.hcd \
+    vendor/samsung/ancora/proprietary/bin/BCM4329B1_002.002.023.0944.0953.hcd:system/vendor/firmware/bcm4329.hcd \
     vendor/samsung/ancora/proprietary/etc/firmware/vidc_720p_command_control.fw:system/etc/firmware/vidc_720p_command_control.fw \
     vendor/samsung/ancora/proprietary/etc/firmware/vidc_720p_h263_dec_mc.fw:system/etc/firmware/vidc_720p_h263_dec_mc.fw \
     vendor/samsung/ancora/proprietary/etc/firmware/vidc_720p_h264_dec_mc.fw:system/etc/firmware/vidc_720p_h264_dec_mc.fw \
