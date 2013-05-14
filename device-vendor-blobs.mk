@@ -17,6 +17,7 @@
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
     vendor/samsung/ancora/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
+    vendor/samsung/ancora/proprietary/lib/libril.so:obj/lib/libril.so \
     vendor/samsung/ancora/proprietary/lib/libseccameraadaptor.so:obj/lib/libseccameraadaptor.so \
     vendor/samsung/ancora/proprietary/lib/libsecril-client.so:obj/lib/libsecril-client.so
 
@@ -47,7 +48,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/ancora/proprietary/lib/libakm.so:system/lib/libakm.so \
     vendor/samsung/ancora/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
-    vendor/samsung/ancora/proprietary/lib/hw/lights.msm7k.so:system/lib/hw/lights.ancora.so \
     vendor/samsung/ancora/proprietary/lib/hw/sensors.GT-I8150.so:system/lib/hw/sensors.ancora.so
 
 # Camera libs
@@ -71,14 +71,15 @@ PRODUCT_COPY_FILES += \
 # Media libs
 PRODUCT_COPY_FILES += \
     vendor/samsung/ancora/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
+    vendor/samsung/ancora/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
+    vendor/samsung/ancora/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
     vendor/samsung/ancora/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/samsung/ancora/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-    vendor/samsung/ancora/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
-    vendor/samsung/ancora/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so
+    vendor/samsung/ancora/proprietary/lib/libmmparser.so:system/lib/libmmparser.so
 
 # Firmware
 PRODUCT_COPY_FILES += \
-    vendor/samsung/ancora/proprietary/bin/BCM4329B1_002.002.023.0944.0952.hcd:system/vendor/firmware/bcm4329.hcd \
+    vendor/samsung/ancora/proprietary/bin/BCM4329B1_002.002.023.0944.0953.hcd:system/vendor/firmware/bcm4329.hcd \
     vendor/samsung/ancora/proprietary/etc/firmware/vidc_720p_command_control.fw:system/etc/firmware/vidc_720p_command_control.fw \
     vendor/samsung/ancora/proprietary/etc/firmware/vidc_720p_h263_dec_mc.fw:system/etc/firmware/vidc_720p_h263_dec_mc.fw \
     vendor/samsung/ancora/proprietary/etc/firmware/vidc_720p_h264_dec_mc.fw:system/etc/firmware/vidc_720p_h264_dec_mc.fw \
@@ -91,5 +92,7 @@ PRODUCT_COPY_FILES += \
 
 # RIL
 PRODUCT_COPY_FILES += \
+    vendor/samsung/ancora/proprietary/bin/rild:system/bin/rild \
+    vendor/samsung/ancora/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/ancora/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/ancora/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so
