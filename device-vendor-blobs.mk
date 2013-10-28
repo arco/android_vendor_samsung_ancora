@@ -60,7 +60,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ancora/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/samsung/ancora/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/samsung/ancora/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/samsung/ancora/proprietary/lib/libs3cjpeg.so:system/lib/libs3cjpeg.so \
     vendor/samsung/ancora/proprietary/lib/libseccameraadaptor.so:system/lib/libseccameraadaptor.so \
     vendor/samsung/ancora/proprietary/lib/libsecjpegarcsoft.so:system/lib/libsecjpegarcsoft.so \
     vendor/samsung/ancora/proprietary/lib/libsecjpegboard.so:system/lib/libsecjpegboard.so \
