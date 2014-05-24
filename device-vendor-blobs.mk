@@ -32,20 +32,20 @@ PRODUCT_COPY_FILES += \
 
 # Adreno libs
 PRODUCT_COPY_FILES += \
-    vendor/samsung/ancora/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    vendor/samsung/ancora/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/samsung/ancora/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/samsung/ancora/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
-    vendor/samsung/ancora/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/samsung/ancora/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
-    vendor/samsung/ancora/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-    vendor/samsung/ancora/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-    vendor/samsung/ancora/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
-    vendor/samsung/ancora/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
-    vendor/samsung/ancora/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
-    vendor/samsung/ancora/proprietary/lib/libgsl.so:system/lib/libgsl.so \
-    vendor/samsung/ancora/proprietary/lib/libllvm-arm.so:system/lib/libllvm-arm.so \
-    vendor/samsung/ancora/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so
+    vendor/samsung/ancora/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
+    vendor/samsung/ancora/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
+    vendor/samsung/ancora/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
+    vendor/samsung/ancora/proprietary/vendor/lib/egl/libGLESv2S3D_adreno.so:system/vendor/lib/egl/libGLESv2S3D_adreno.so \
+    vendor/samsung/ancora/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
+    vendor/samsung/ancora/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/samsung/ancora/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+    vendor/samsung/ancora/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/samsung/ancora/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
+    vendor/samsung/ancora/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
+    vendor/samsung/ancora/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+    vendor/samsung/ancora/proprietary/vendor/lib/libc2d2_z180.so:system/vendor/lib/libc2d2_z180.so \
+    vendor/samsung/ancora/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+    vendor/samsung/ancora/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so
 
 # HW libs
 PRODUCT_COPY_FILES += \
