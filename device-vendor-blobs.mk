@@ -25,11 +25,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/ancora/proprietary/bin/rmt_storage:system/bin/rmt_storage
 
-# Cameradata
-PRODUCT_COPY_FILES += \
-    vendor/samsung/ancora/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
-    vendor/samsung/ancora/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv
-
 # Adreno libs
 PRODUCT_COPY_FILES += \
     vendor/samsung/ancora/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
