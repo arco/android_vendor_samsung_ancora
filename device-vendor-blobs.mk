@@ -21,7 +21,8 @@ PRODUCT_COPY_FILES += \
 
 # Binaries
 PRODUCT_COPY_FILES += \
-    vendor/samsung/ancora/proprietary/bin/rmt_storage:system/bin/rmt_storage
+    vendor/samsung/ancora/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/samsung/ancora/proprietary/bin/get_macaddrs:system/bin/get_macaddrs
 
 # Adreno libs
 PRODUCT_COPY_FILES += \
@@ -44,7 +45,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/ancora/proprietary/lib/libakm.so:system/lib/libakm.so \
     vendor/samsung/ancora/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
-    vendor/samsung/ancora/proprietary/lib/hw/sensors.GT-I8150.so:system/lib/hw/sensors.ancora.so
+    vendor/samsung/ancora/proprietary/lib/hw/sensors.GT-I8150.so:system/lib/hw/sensors.ancora.so \
+    vendor/samsung/ancora/proprietary/lib/libexifa.so:system/lib/libexifa.so \
+    vendor/samsung/ancora/proprietary/lib/libjpega.so:system/lib/libjpega.so
 
 # Camera libs
 PRODUCT_COPY_FILES += \
