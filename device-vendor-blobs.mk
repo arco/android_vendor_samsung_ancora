@@ -72,8 +72,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ancora/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
     vendor/samsung/ancora/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/samsung/ancora/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-    vendor/samsung/ancora/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
-    vendor/samsung/ancora/proprietary/lib/libOmxMp3Dec.so:system/lib/libOmxMp3Dec.so
+    vendor/samsung/ancora/proprietary/lib/libmmparser.so:system/lib/libmmparser.so
 
 # Firmware
 PRODUCT_COPY_FILES += \
